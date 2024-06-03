@@ -1,5 +1,5 @@
 # HealthChecks
-HealthChecks is an addon for World of Warcraft that prompts players to check posture and other health related features!
+HealthChecks is an extremely lightweight addon for World of Warcraft that prompts players to check posture and other health related features!
 
 ## Features
 -Pings every 30 minutes by default to check your posture
