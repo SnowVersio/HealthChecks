@@ -6,5 +6,7 @@ Drag the folder "HealthChecks" to your into \Interface\AddOns\ in your WoW direc
 
 ## Planned features
 -Options menu
+
 -Hydration check
+
 -Standing check
