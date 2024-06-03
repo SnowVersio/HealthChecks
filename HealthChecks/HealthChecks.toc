@@ -1,0 +1,9 @@
+## Interface: 100207
+## Version: 0.1.13
+## Title: Health Reminder
+## Notes: Get reminded about health stuff!
+## Author: SnowVersio
+# IconTexture: Interface\AddOns\HealthChecks\HealthChecks.tga - Placeholder until file exists
+# IconAtlas: Interface\AddOns\HealthChecks\HealthChecks.tga - Placeholder until file exists
+
+HealthChecks.lua
