@@ -4,7 +4,7 @@ HealthChecks is an addon for World of Warcraft that prompts players to check pos
 ## Installation
 Drag the folder "HealthChecks" to your into \Interface\AddOns\ in your WoW directory
 
-##Planned features
+## Planned features
 -Options menu
 -Hydration check
 -Standing check
