@@ -46,7 +46,7 @@ StaticPopupDialogs["POSTURE_CHECK_POPUP"] =
 {
     text = "Check your posture you goofy goober",
     button1 = "Alright, it's fixed!",
-    button2 = "Ping me in 30 mins",
+    button2 = "Ping me in 15 minutes",
     OnAccept = function()
         print("Your spine is thanking you!")
     end,
