@@ -9,7 +9,7 @@ HealthChecks is an extremely lightweight addon for World of Warcraft that prompt
 - "Remind me later" button that postpones for 15 minutes
 
 ## Installation
-Drag the folder "HealthChecks" to your into \Interface\AddOns\ in your WoW directory
+Drag the folder "HealthChecks" into \Interface\AddOns\ in your WoW directory
 
 ## Planned features
 - Options menu
