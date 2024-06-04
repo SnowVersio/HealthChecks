@@ -3,7 +3,7 @@
 ## Title: HealthChecks
 ## Notes: A few handy reminders to better your health!
 ## Author: SnowVersio
-# IconTexture: Interface\AddOns\HealthChecks\HealthChecks.tga - Placeholder until file exists
-# IconAtlas: Interface\AddOns\HealthChecks\HealthChecks.tga - Placeholder until file exists
+# IconTexture: Interface\AddOns\HealthChecks\HealthChecks.tga - Placeholder until icon exists
+# IconAtlas: Interface\AddOns\HealthChecks\HealthChecks.tga - Placeholder until icon exists
 
 HealthChecks.lua
