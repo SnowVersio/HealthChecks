@@ -1,6 +1,5 @@
 --Health Reminder addon for World of Warcraft (Tested on retail and built for 10.2.7)
---Written by SnowVersio
---If you're reading this, this is my first addon and I barely write Lua. It is likely very inefficient. Don't bully me for it >:C
+--This is my first addon and I barely write Lua. It is likely very inefficient. Don't bully me for it >:C
 print("Congratulations! HealthChecks has successfuly enabled!")
 
 -- Creates the Window for the reminder 
@@ -67,6 +66,7 @@ if InCombatLockdown() then
     return
 end
 -- Checks current session, if it's the first login it prompts the interval frame, if it's an ongoing session then it runs the reminder frame
+    -- Initial check is the control for how this works, as it's default value is 0. This WILL reset on a /reload
 if initialCheck < 1 then
     StaticPopup_Show("SET_REMINDER_POSTURE_POPUP")
     finalReminder = currentTime
@@ -79,7 +79,7 @@ if initialCheck < 1 then
     end
 end
 
--- Loads function on login, disables on logout to reset all values
+-- Function controlling the starting of script upon login, placing down here to ensure everything sets up smoothly
 local function OnLogin()
     frame:RegisterEvent("PLAYER_LOGOUT")
     frame:SetScript("OnUpdate", PostureCheckReminder)
@@ -89,7 +89,7 @@ local function OnLogout()
     frame:SetScript("OnUpdate", nil)
 end
 
--- Loop to check if the player is online to run necessary functions
+-- Loop to check if the player is online to run the above functions
 frame:SetScript("OnEvent", function(self, event, ...)
     if event == "PLAYER_LOGIN" then
         OnLogin()
@@ -98,5 +98,5 @@ frame:SetScript("OnEvent", function(self, event, ...)
     end
 end)
 
--- Placing this at the end to ensure the entire code sets up smoothly before it registers the player has logged in
+-- Final line is checking if the player is logged in, if so it runs all the above. Placing at the end for ordering reasons.
 frame:RegisterEvent("PLAYER_LOGIN")
