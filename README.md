@@ -4,9 +4,9 @@ HealthChecks is an extremely lightweight addon for World of Warcraft that prompt
 ## Features
 - Pings every 30 minutes by default to check your posture 
 
-- Customisable between every 30, 60 or 120 minutes of checking
+- Choose between every 30, 60 or 120 minutes of reminders
 
-- "Remind me later" button that postpones for 15 minutes
+- "Remind me later" button that postpones the reminder for 15 minutes
 
 ## Installation
 Drag the folder "HealthChecks" into \Interface\AddOns\ in your WoW directory
