@@ -44,8 +44,8 @@ StaticPopupDialogs["SET_REMINDER_POSTURE_POPUP"] =
 -- Window frame for posture check, cancelling resets the clock by 15 minutes
 StaticPopupDialogs["POSTURE_CHECK_POPUP"] =
 {
-    text = "Check your posture you fucking goofy goober",
-    button1 = "Aight bet,",
+    text = "Check your posture you goofy goober",
+    button1 = "Alright, it's fixed!",
     button2 = "Ping me in 30 mins",
     OnAccept = function()
         print("Your spine is thanking you!")
